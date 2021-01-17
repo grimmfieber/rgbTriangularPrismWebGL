@@ -23,7 +23,7 @@
 
 ## why not 'R' 'G' 'B' keys instead 'K' 'M' 'Y'
 ### In Turkish
-Red = Kırmızı
-Green = Yeşil
-Blue = Mavi 
-Reset = Sıfırlama
+##### Red = Kırmızı
+##### Green = Yeşil
+##### Blue = Mavi 
+##### Reset = Sıfırlama
