@@ -1,9 +1,29 @@
 # rgbTriangularPrismWebGL
-a rgb switchable triangular prism drawn by using vertices.
-Colors can be switch by using k,y,m keys.
 
-K for Red
-Y for Green
-M for Blue 
+###a rgb switchable triangular prism drawn by using given vertice coordinates.
 
-Key combinations chosen from turkish words of red,green,blue.
+
+## Blue
+![mavi](https://user-images.githubusercontent.com/43934894/104830052-9517de80-588b-11eb-9040-db61d46bab50.JPG)
+
+## Red
+![kirmizi](https://user-images.githubusercontent.com/43934894/104830053-95b07500-588b-11eb-8ffa-9e9b1368e864.JPG)
+
+## Green
+![yesil](https://user-images.githubusercontent.com/43934894/104830054-96490b80-588b-11eb-953c-4474dec667c6.JPG)
+
+
+
+### Colors can be switch by using k,y,m keys or reset with S.
+
+>S for resetting colors.
+>K for Red
+>Y for Green
+>M for Blue 
+
+## why not 'R' 'G' 'B' keys instead 'K' 'M' 'Y'
+### In Turkish
+Red = Kırmızı(
+Green = Yeşil
+Blue = Mavi 
+Reset = Sıfırlama
