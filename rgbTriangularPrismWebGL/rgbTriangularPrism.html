@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<h1>S ile sıfırlar K ile Kırmızı M ile Mavi Y ile Yeşil.</h1>
+<script id="vertex-shader" type="x-shader/x-vertex">
+
+attribute vec4 vPosition;
+
+uniform mat4 modelViewMatrix;
+uniform mat4 projectionMatrix;
+
+
+void
+main()
+{
+    gl_Position = projectionMatrix*modelViewMatrix*vPosition;
+}
+</script>
+
+<script id="fragment-shader" type="x-shader/x-fragment">
+
+precision mediump float;
+uniform float red;
+uniform float green;
+ uniform float blue;
+
+
+void
+main()
+{
+
+    gl_FragColor = vec4(0.0 + red, 0.0 + green, 0.0 + blue, 1.0 );
+}
+</script>
+
+
+<!--button id = "Button4">Increase Subdivisions</button>
+<button id = "Button5">Decrease Subdivisions</button-->
+
+<script type="text/javascript" src="webgl-utils.js"></script>
+<script type="text/javascript" src="initShaders.js"></script>
+<script type="text/javascript" src="MV.js"></script>
+<script type="text/javascript" src="rgbTriangularPrism.js"></script>
+
+<body>
+    
+<canvas id="gl-canvas" width="600" height="600">
+Oops ... your browser doesn't support the HTML5 canvas element
+
+</canvas>
+</body>
+</html>
