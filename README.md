@@ -1,6 +1,6 @@
 # rgbTriangularPrismWebGL
 
-###a rgb switchable triangular prism drawn by using given vertice coordinates.
+### a rgb switchable triangular prism drawn by using given vertice coordinates.
 
 
 ## Blue
@@ -23,7 +23,7 @@
 
 ## why not 'R' 'G' 'B' keys instead 'K' 'M' 'Y'
 ### In Turkish
-Red = Kırmızı(
+Red = Kırmızı
 Green = Yeşil
 Blue = Mavi 
 Reset = Sıfırlama
