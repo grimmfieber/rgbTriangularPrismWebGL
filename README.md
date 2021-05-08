@@ -1,5 +1,5 @@
 # rgbTriangularPrismWebGL
-## ! bunch of months later edit: This project was a exam question so I gave var names in turkish because I only had 20 minutes to complete. I wasn't aware the importance of using english variable names. For readers who does not know Turkish my condolonces
+## ! bunch of months later edit: This project was a exam question so I gave var names in turkish because I only had 20 minutes to complete. I wasn't aware the importance of using english variable names. For people who does not know Turkish my condolonces
 ### a rgb switchable triangular prism drawn by using given vertice coordinates.
 
 
